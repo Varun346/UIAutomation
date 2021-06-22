@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="12" total="26" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-16T18:05:19 IST" name="Suite" finished-at="2021-06-16T18:21:36 IST" duration-ms="976307">
+    <groups>
+    </groups>
+    <test started-at="2021-06-16T18:05:19 IST" name="Test" finished-at="2021-06-16T18:21:36 IST" duration-ms="976307">
+      <class name="org.Adyen.Testscripts.DeleteSavedPayPalDetails_TC009">
+        <test-method is-config="true" signature="Login()[pri:0, instance:org.Adyen.Testscripts.DeleteSavedPayPalDetails_TC009@71809907]" started-at="2021-06-16T18:16:52 IST" name="Login" finished-at="2021-06-16T18:17:09 IST" duration-ms="17135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="testDeletingSavedPayPalDetails_TC0011()[pri:0, instance:org.Adyen.Testscripts.DeleteSavedPayPalDetails_TC009@71809907]" started-at="2021-06-16T18:17:09 IST" name="testDeletingSavedPayPalDetails_TC0011" finished-at="2021-06-16T18:17:38 IST" duration-ms="28724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletingSavedPayPalDetails_TC0011 -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:org.Adyen.Testscripts.DeleteSavedPayPalDetails_TC009@71809907]" started-at="2021-06-16T18:17:38 IST" name="Logout" finished-at="2021-06-16T18:17:43 IST" duration-ms="5109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- org.Adyen.Testscripts.DeleteSavedPayPalDetails_TC009 -->
+      <class name="org.Adyen.Testscripts.RefiilAccountUsingPayPalDetails_TC004">
+        <test-method is-config="true" signature="Login()[pri:0, instance:org.Adyen.Testscripts.RefiilAccountUsingPayPalDetails_TC004@7fa98a66]" started-at="2021-06-16T18:09:45 IST" name="Login" finished-at="2021-06-16T18:10:06 IST" duration-ms="21352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="testRefiilAccountUsingPayPalDetails_TC004()[pri:0, instance:org.Adyen.Testscripts.RefiilAccountUsingPayPalDetails_TC004@7fa98a66]" started-at="2021-06-16T18:10:06 IST" name="testRefiilAccountUsingPayPalDetails_TC004" finished-at="2021-06-16T18:11:46 IST" duration-ms="99822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRefiilAccountUsingPayPalDetails_TC004 -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:org.Adyen.Testscripts.RefiilAccountUsingPayPalDetails_TC004@7fa98a66]" started-at="2021-06-16T18:11:46 IST" name="Logout" finished-at="2021-06-16T18:11:52 IST" duration-ms="5490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- org.Adyen.Testscripts.RefiilAccountUsingPayPalDetails_TC004 -->
+      <class name="org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumber_TC0013">
+        <test-method is-config="true" signature="Login()[pri:0, instance:org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumber_TC0013@6aba2b86]" started-at="2021-06-16T18:18:34 IST" name="Login" finished-at="2021-06-16T18:18:55 IST" duration-ms="20747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="testChecoutForSubscriptionOfPhoneNumber_TC0013()[pri:0, instance:org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumber_TC0013@6aba2b86]" started-at="2021-06-16T18:18:55 IST" name="testChecoutForSubscriptionOfPhoneNumber_TC0013" finished-at="2021-06-16T18:20:10 IST" duration-ms="74743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChecoutForSubscriptionOfPhoneNumber_TC0013 -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumber_TC0013@6aba2b86]" started-at="2021-06-16T18:20:10 IST" name="Logout" finished-at="2021-06-16T18:20:15 IST" duration-ms="5446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumber_TC0013 -->
+      <class name="org.Adyen.Testscripts.RefillAccountUsingSavedMasterCardDetails_TC003">
+        <test-method is-config="true" signature="Login()[pri:0, instance:org.Adyen.Testscripts.RefillAccountUsingSavedMasterCardDetails_TC003@1a451d4d]" started-at="2021-06-16T18:08:47 IST" name="Login" finished-at="2021-06-16T18:09:13 IST" duration-ms="25781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="testRefillAccountUsingSavedMasterCardDetails_TC003()[pri:0, instance:org.Adyen.Testscripts.RefillAccountUsingSavedMasterCardDetails_TC003@1a451d4d]" started-at="2021-06-16T18:09:13 IST" name="testRefillAccountUsingSavedMasterCardDetails_TC003" finished-at="2021-06-16T18:09:39 IST" duration-ms="26567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRefillAccountUsingSavedMasterCardDetails_TC003 -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:org.Adyen.Testscripts.RefillAccountUsingSavedMasterCardDetails_TC003@1a451d4d]" started-at="2021-06-16T18:09:39 IST" name="Logout" finished-at="2021-06-16T18:09:45 IST" duration-ms="5828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- org.Adyen.Testscripts.RefillAccountUsingSavedMasterCardDetails_TC003 -->
+      <class name="org.Adyen.Testscripts.CapturingPaymentReceipts_TC0010">
+        <test-method is-config="true" signature="Login()[pri:0, instance:org.Adyen.Testscripts.CapturingPaymentReceipts_TC0010@3ce1e309]" started-at="2021-06-16T18:17:43 IST" name="Login" finished-at="2021-06-16T18:18:02 IST" duration-ms="19449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="testCapturingPaymentReceipts_TC0010()[pri:0, instance:org.Adyen.Testscripts.CapturingPaymentReceipts_TC0010@3ce1e309]" started-at="2021-06-16T18:18:02 IST" name="testCapturingPaymentReceipts_TC0010" finished-at="2021-06-16T18:18:29 IST" duration-ms="26756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCapturingPaymentReceipts_TC0010 -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:org.Adyen.Testscripts.CapturingPaymentReceipts_TC0010@3ce1e309]" started-at="2021-06-16T18:18:29 IST" name="Logout" finished-at="2021-06-16T18:18:34 IST" duration-ms="4940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- org.Adyen.Testscripts.CapturingPaymentReceipts_TC0010 -->
+      <class name="org.Adyen.Testscripts.ValidatingSavedGpayMethod_TC0015">
+        <test-method is-config="true" signature="Login()[pri:0, instance:org.Adyen.Testscripts.ValidatingSavedGpayMethod_TC0015@8dbdac1]" started-at="2021-06-16T18:15:10 IST" name="Login" finished-at="2021-06-16T18:15:31 IST" duration-ms="20964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="testValidatingSavedGPayMethod_TC0015()[pri:0, instance:org.Adyen.Testscripts.ValidatingSavedGpayMethod_TC0015@8dbdac1]" started-at="2021-06-16T18:15:31 IST" name="testValidatingSavedGPayMethod_TC0015" finished-at="2021-06-16T18:15:51 IST" duration-ms="20155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidatingSavedGPayMethod_TC0015 -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:org.Adyen.Testscripts.ValidatingSavedGpayMethod_TC0015@8dbdac1]" started-at="2021-06-16T18:15:51 IST" name="Logout" finished-at="2021-06-16T18:15:57 IST" duration-ms="5189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- org.Adyen.Testscripts.ValidatingSavedGpayMethod_TC0015 -->
+      <class name="org.Adyen.Testscripts.DeleteSavedMasterCardDetails_TC008">
+        <test-method is-config="true" signature="Login()[pri:0, instance:org.Adyen.Testscripts.DeleteSavedMasterCardDetails_TC008@6e20b53a]" started-at="2021-06-16T18:15:57 IST" name="Login" finished-at="2021-06-16T18:16:19 IST" duration-ms="22327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="testDeleteSavedMasterCardDetails_TC008()[pri:0, instance:org.Adyen.Testscripts.DeleteSavedMasterCardDetails_TC008@6e20b53a]" started-at="2021-06-16T18:16:19 IST" name="testDeleteSavedMasterCardDetails_TC008" finished-at="2021-06-16T18:16:47 IST" duration-ms="27722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteSavedMasterCardDetails_TC008 -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:org.Adyen.Testscripts.DeleteSavedMasterCardDetails_TC008@6e20b53a]" started-at="2021-06-16T18:16:47 IST" name="Logout" finished-at="2021-06-16T18:16:52 IST" duration-ms="5343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- org.Adyen.Testscripts.DeleteSavedMasterCardDetails_TC008 -->
+      <class name="org.Adyen.Testscripts.RefillUsingMasterCardWithSavingDetails_TC002">
+        <test-method is-config="true" signature="Login()[pri:0, instance:org.Adyen.Testscripts.RefillUsingMasterCardWithSavingDetails_TC002@62150f9e]" started-at="2021-06-16T18:07:15 IST" name="Login" finished-at="2021-06-16T18:07:37 IST" duration-ms="21254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="testRefillUsingMasterCardWithSavingDetails_TC002()[pri:0, instance:org.Adyen.Testscripts.RefillUsingMasterCardWithSavingDetails_TC002@62150f9e]" started-at="2021-06-16T18:07:37 IST" name="testRefillUsingMasterCardWithSavingDetails_TC002" finished-at="2021-06-16T18:08:42 IST" duration-ms="65314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRefillUsingMasterCardWithSavingDetails_TC002 -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:org.Adyen.Testscripts.RefillUsingMasterCardWithSavingDetails_TC002@62150f9e]" started-at="2021-06-16T18:08:42 IST" name="Logout" finished-at="2021-06-16T18:08:47 IST" duration-ms="5065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- org.Adyen.Testscripts.RefillUsingMasterCardWithSavingDetails_TC002 -->
+      <class name="org.Adyen.Testscripts.RefillAccountUsingSavedGpayDetails_TC006">
+        <test-method is-config="true" signature="Login()[pri:0, instance:org.Adyen.Testscripts.RefillAccountUsingSavedGpayDetails_TC006@5fdcaa40]" started-at="2021-06-16T18:12:52 IST" name="Login" finished-at="2021-06-16T18:13:11 IST" duration-ms="18770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="testRefillAccountUsingSavedGpayDetails_TC006()[pri:0, instance:org.Adyen.Testscripts.RefillAccountUsingSavedGpayDetails_TC006@5fdcaa40]" started-at="2021-06-16T18:13:11 IST" name="testRefillAccountUsingSavedGpayDetails_TC006" finished-at="2021-06-16T18:13:43 IST" duration-ms="32007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRefillAccountUsingSavedGpayDetails_TC006 -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:org.Adyen.Testscripts.RefillAccountUsingSavedGpayDetails_TC006@5fdcaa40]" started-at="2021-06-16T18:13:43 IST" name="Logout" finished-at="2021-06-16T18:13:48 IST" duration-ms="5236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- org.Adyen.Testscripts.RefillAccountUsingSavedGpayDetails_TC006 -->
+      <class name="org.Adyen.Testscripts.RefillUsingMasterCardWithoutSavingDetails_TC001">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:org.Adyen.Testscripts.RefillUsingMasterCardWithoutSavingDetails_TC001@61862a7f]" started-at="2021-06-16T18:05:19 IST" name="OpenBrowser" finished-at="2021-06-16T18:05:19 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:org.Adyen.Testscripts.RefillUsingMasterCardWithoutSavingDetails_TC001@61862a7f]" started-at="2021-06-16T18:05:20 IST" name="Login" finished-at="2021-06-16T18:05:43 IST" duration-ms="22494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="testRefillUsingMasterCardWithoutSavingDetails_TC001()[pri:0, instance:org.Adyen.Testscripts.RefillUsingMasterCardWithoutSavingDetails_TC001@61862a7f]" started-at="2021-06-16T18:05:43 IST" name="testRefillUsingMasterCardWithoutSavingDetails_TC001" finished-at="2021-06-16T18:07:09 IST" duration-ms="86707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRefillUsingMasterCardWithoutSavingDetails_TC001 -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:org.Adyen.Testscripts.RefillUsingMasterCardWithoutSavingDetails_TC001@61862a7f]" started-at="2021-06-16T18:07:10 IST" name="Logout" finished-at="2021-06-16T18:07:15 IST" duration-ms="5707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- org.Adyen.Testscripts.RefillUsingMasterCardWithoutSavingDetails_TC001 -->
+      <class name="org.Adyen.Testscripts.ValidatingSavedPaymentMethods_TC007">
+        <test-method is-config="true" signature="Login()[pri:0, instance:org.Adyen.Testscripts.ValidatingSavedPaymentMethods_TC007@32eff876]" started-at="2021-06-16T18:13:48 IST" name="Login" finished-at="2021-06-16T18:14:09 IST" duration-ms="20789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="testValidatingMasterCardPaymentMethods()[pri:1, instance:org.Adyen.Testscripts.ValidatingSavedPaymentMethods_TC007@32eff876]" started-at="2021-06-16T18:14:09 IST" name="testValidatingMasterCardPaymentMethods" finished-at="2021-06-16T18:14:50 IST" duration-ms="41200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidatingMasterCardPaymentMethods -->
+        <test-method signature="testValidatingPaypalPaymentMethods()[pri:2, instance:org.Adyen.Testscripts.ValidatingSavedPaymentMethods_TC007@32eff876]" started-at="2021-06-16T18:14:50 IST" name="testValidatingPaypalPaymentMethods" finished-at="2021-06-16T18:15:04 IST" duration-ms="14325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidatingPaypalPaymentMethods -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:org.Adyen.Testscripts.ValidatingSavedPaymentMethods_TC007@32eff876]" started-at="2021-06-16T18:15:04 IST" name="Logout" finished-at="2021-06-16T18:15:10 IST" duration-ms="5898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- org.Adyen.Testscripts.ValidatingSavedPaymentMethods_TC007 -->
+      <class name="org.Adyen.Testscripts.RefillAccountUsingSavedPayPalDetails_TC005">
+        <test-method is-config="true" signature="Login()[pri:0, instance:org.Adyen.Testscripts.RefillAccountUsingSavedPayPalDetails_TC005@15ff3e9e]" started-at="2021-06-16T18:11:52 IST" name="Login" finished-at="2021-06-16T18:12:12 IST" duration-ms="20521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="testRefillAccountUsingSavedPayPalDetails_TC005()[pri:0, instance:org.Adyen.Testscripts.RefillAccountUsingSavedPayPalDetails_TC005@15ff3e9e]" started-at="2021-06-16T18:12:12 IST" name="testRefillAccountUsingSavedPayPalDetails_TC005" finished-at="2021-06-16T18:12:47 IST" duration-ms="34498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRefillAccountUsingSavedPayPalDetails_TC005 -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:org.Adyen.Testscripts.RefillAccountUsingSavedPayPalDetails_TC005@15ff3e9e]" started-at="2021-06-16T18:12:47 IST" name="Logout" finished-at="2021-06-16T18:12:52 IST" duration-ms="5228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- org.Adyen.Testscripts.RefillAccountUsingSavedPayPalDetails_TC005 -->
+      <class name="org.Adyen.Testscripts.PurchasingPhonenumber_TC0012">
+        <test-method is-config="true" signature="Login()[pri:0, instance:org.Adyen.Testscripts.PurchasingPhonenumber_TC0012@158da8e]" started-at="2021-06-16T18:20:15 IST" name="Login" finished-at="2021-06-16T18:20:35 IST" duration-ms="20000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="testPurchasingPhonenumber_TC0012()[pri:0, instance:org.Adyen.Testscripts.PurchasingPhonenumber_TC0012@158da8e]" started-at="2021-06-16T18:20:35 IST" name="testPurchasingPhonenumber_TC0012" finished-at="2021-06-16T18:21:30 IST" duration-ms="55439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPurchasingPhonenumber_TC0012 -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:org.Adyen.Testscripts.PurchasingPhonenumber_TC0012@158da8e]" started-at="2021-06-16T18:21:30 IST" name="Logout" finished-at="2021-06-16T18:21:36 IST" duration-ms="5324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- org.Adyen.Testscripts.PurchasingPhonenumber_TC0012 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

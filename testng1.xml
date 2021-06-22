@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="org.Adyen.utilities.GenerateReport" />
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+
+			<class
+				name="org.Adyen.Testscripts.RefillUsingMasterCardWithoutSavingDetails_TC001" />
+			<class
+				name="org.Adyen.Testscripts.RefillUsingMasterCardWithSavingDetails_TC002" />
+			<class
+				name="org.Adyen.Testscripts.RefillAccountUsingSavedMasterCardDetails_TC003" />
+			<class
+				name="org.Adyen.Testscripts.RefiilAccountUsingPayPalDetails_TC004" />
+			<class
+				name="org.Adyen.Testscripts.RefillAccountUsingSavedPayPalDetails_TC005" />
+			<class
+				name="org.Adyen.Testscripts.RefillAccountUsingSavedGpayDetails_TC006" />
+			<class
+				name="org.Adyen.Testscripts.ValidatingSavedPaymentMethods_TC007" />
+			<class
+				name="org.Adyen.Testscripts.ValidatingSavedGpayMethod_TC0015" />
+			<class
+				name="org.Adyen.Testscripts.DeleteSavedMasterCardDetails_TC008" />
+			<class
+				name="org.Adyen.Testscripts.DeleteSavedPayPalDetails_TC009" />
+			<class
+				name="org.Adyen.Testscripts.CapturingPaymentReceipts_TC0010" />
+			<class
+				name="org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumber_TC0013" />
+			<class
+				name="org.Adyen.Testscripts.PurchasingPhonenumber_TC0012" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
