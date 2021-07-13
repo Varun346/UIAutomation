@@ -9,6 +9,9 @@ public class AccountSettingsWebElements {
 	@FindBy(xpath = "//button[contains(text(),'Billing')]")
 	private WebElement BillingLink;
 
+	@FindBy(linkText = "Prepaid account")
+	private WebElement PrepaidAccountLink;
+
 	@FindBy(linkText = "Payment methods")
 	private WebElement Paymentmethods;
 
@@ -23,6 +26,11 @@ public class AccountSettingsWebElements {
 
 	public AccountSettingsWebElements() {
 		PageFactory.initElements(BaseClass.driver, this);
+	}
+
+	public void ClickPrepaidAccountLink() {
+		BaseClass.log.info(".....clicked on Prepaid Account section.....");
+		PrepaidAccountLink.click();
 	}
 
 	public void ClickBillingLink() {

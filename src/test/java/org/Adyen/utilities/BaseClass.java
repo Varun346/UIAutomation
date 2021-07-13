@@ -13,7 +13,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 
@@ -50,10 +49,12 @@ public class BaseClass {
 		log.info(".....Url entered...........");
 		driver.manage().window().maximize();
 		log.info(".....clicked on maximise button....");
+		Thread.sleep(5000);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		String emailid = ExcelOperation.Readdata("Sheet1", 1, 4);
 		String password = ExcelOperation.Readdata("Sheet1", 1, 5);
 		driver.findElement(By.xpath("//input[@type='email']")).sendKeys(emailid);
+		Thread.sleep(2000);
 		log.info(".....entered email id.........");
 		driver.findElement(By.xpath("//input[@type='password']")).sendKeys(password);
 		log.info(".....pwd entered.......");

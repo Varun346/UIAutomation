@@ -20,7 +20,9 @@
 			<class
 				name="org.Adyen.Testscripts.RefillAccountUsingSavedGpayDetails_TC006" />
 			<class
-				name="org.Adyen.Testscripts.ValidatingSavedPaymentMethods_TC007" />
+				name="org.Adyen.Testscripts.ValidatingSavedMasterPaymentMethods_TC007" />
+			<class
+				name="org.Adyen.Testscripts.ValidatingSavedPayPalMethod_TC0016" />
 			<class
 				name="org.Adyen.Testscripts.ValidatingSavedGpayMethod_TC0015" />
 			<class
@@ -30,10 +32,9 @@
 			<class
 				name="org.Adyen.Testscripts.CapturingPaymentReceipts_TC0010" />
 			<class
-				name="org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumber_TC0013" />
-			<class
 				name="org.Adyen.Testscripts.PurchasingPhonenumber_TC0012" />
-
+			<class
+				name="org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingGpay_TC0013" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

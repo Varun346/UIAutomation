@@ -12,9 +12,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class ChecoutForSubscriptionOfPhoneNumber_TC0013 extends BaseClass {
+public class ChecoutForSubscriptionOfPhoneNumberUsingGpay_TC0013 extends BaseClass {
 	@Test
-	public void testChecoutForSubscriptionOfPhoneNumber_TC0013()
+	public void testChecoutForSubscriptionOfPhoneNumberUsingGpay_TC0013()
 			throws InterruptedException, EncryptedDocumentException, InvalidFormatException, IOException {
 		OnboardingPageWebElements ope = new OnboardingPageWebElements();
 		ope.ClickOnSettingsLink();

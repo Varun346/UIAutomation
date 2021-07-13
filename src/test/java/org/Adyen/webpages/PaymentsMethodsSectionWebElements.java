@@ -9,6 +9,9 @@ public class PaymentsMethodsSectionWebElements {
 	@FindBy(xpath = "//div[contains(text(),'Google Pay')]")
 	private WebElement GooglePay;
 
+	@FindBy(xpath = "//button[contains(@id,'adyenpay-containeralipay')]")
+	private WebElement AliPay;
+
 	@FindBy(xpath = "//div[contains(text(),'Google Pay')]/following::div[2]")
 	private WebElement GooglePayOptionsLink;
 
@@ -40,6 +43,12 @@ public class PaymentsMethodsSectionWebElements {
 	public void ClickOnGPayOptionsLink() {
 		GooglePayOptionsLink.click();
 		BaseClass.log.info(".....Clicked on Option link......");
+	}
+	
+	public void ClickOnAlipayLink()
+	{
+		AliPay.click();
+		BaseClass.log.info(".......Clicked on AliPay Button.......");
 	}
 
 	public void ClickOnMasterCardOptionsLink() {

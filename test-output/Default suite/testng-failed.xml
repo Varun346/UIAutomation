@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.Adyen.Testscripts.ConvertingAccountFromFreeToPremium_TC0014">
+      <class name="org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingMasterCard_TC0019">
         <methods>
           <include name="Login"/>
-          <include name="testConvertingAccountFromFreeToPremium_TC0014"/>
           <include name="Logout"/>
+          <include name="testChecoutForSubscriptionOfPhoneNumberUsingMasterCard_TC0019"/>
           <include name="OpenBrowser"/>
         </methods>
-      </class> <!-- org.Adyen.Testscripts.ConvertingAccountFromFreeToPremium_TC0014 -->
+      </class> <!-- org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingMasterCard_TC0019 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,4 +1,5 @@
 C:\Varun\Workspace\AutomationTesting\src\test\java\org\Adyen\webpages\PlanSectionWebElements.java
+C:\Varun\Workspace\AutomationTesting\src\test\java\org\Adyen\webpages\AliPayHomePageWebElements.java
 C:\Varun\Workspace\AutomationTesting\src\test\java\org\Adyen\Testscripts\ValidatingSavedGpayMethod_TC0015.java
 C:\Varun\Workspace\AutomationTesting\src\test\java\org\Adyen\Testscripts\RefillAccountUsingSavedPayPalDetails_TC005.java
 C:\Varun\Workspace\AutomationTesting\src\test\java\org\Adyen\Testscripts\ChecoutForSubscriptionOfPhoneNumber_TC0013.java
@@ -7,6 +8,7 @@ C:\Varun\Workspace\AutomationTesting\src\test\java\org\Adyen\utilities\ExcelOper
 C:\Varun\Workspace\AutomationTesting\src\test\java\org\Adyen\Testscripts\DeleteSavedGpayMethodUnderPaymentMethodsSection_TC0011.java
 C:\Varun\Workspace\AutomationTesting\src\test\java\org\Adyen\webpages\PhoneNumberSectionPageWebElements.java
 C:\Varun\Workspace\AutomationTesting\src\test\java\org\Adyen\webpages\PrepaidAccountPageWebElements.java
+C:\Varun\Workspace\AutomationTesting\src\test\java\org\Adyen\Testscripts\RefillUsingAuthorisedDelayedPayments_TC0018.java
 C:\Varun\Workspace\AutomationTesting\src\test\java\org\Adyen\utilities\BaseClass.java
 C:\Varun\Workspace\AutomationTesting\src\test\java\org\Adyen\webpages\OnboardingPageWebElements.java
 C:\Varun\Workspace\AutomationTesting\src\test\java\org\Adyen\Testscripts\ConvertingAccountFromFreeToPremium_TC0014.java
@@ -16,6 +18,7 @@ C:\Varun\Workspace\AutomationTesting\src\test\java\org\Adyen\webpages\PaymentsMe
 C:\Varun\Workspace\AutomationTesting\src\test\java\org\Adyen\Testscripts\RefiilAccountUsingPayPalDetails_TC004.java
 C:\Varun\Workspace\AutomationTesting\src\test\java\org\Adyen\webpages\AccountSettingsWebElements.java
 C:\Varun\Workspace\AutomationTesting\src\test\java\org\Adyen\Testscripts\DeleteSavedMasterCardDetails_TC008.java
+C:\Varun\Workspace\AutomationTesting\src\test\java\org\Adyen\Testscripts\ValidatingSavedPayPalMethod_TC0016.java
 C:\Varun\Workspace\AutomationTesting\src\test\java\Sonetel\AutomationTesting\Extentreports.java
 C:\Varun\Workspace\AutomationTesting\src\test\java\Sonetel\AutomationTesting\Adyen.java
 C:\Varun\Workspace\AutomationTesting\src\test\java\org\Adyen\Testscripts\RefillUsingMasterCardWithSavingDetails_TC002.java
@@ -23,7 +26,8 @@ C:\Varun\Workspace\AutomationTesting\src\test\java\org\Adyen\Testscripts\RefillU
 C:\Varun\Workspace\AutomationTesting\src\test\java\Sonetel\AutomationTesting\incogni.java
 C:\Varun\Workspace\AutomationTesting\src\test\java\org\Adyen\Testscripts\RefillAccountUsingSavedGpayDetails_TC006.java
 C:\Varun\Workspace\AutomationTesting\src\test\java\org\Adyen\Testscripts\DeleteSavedPayPalDetails_TC009.java
-C:\Varun\Workspace\AutomationTesting\src\test\java\org\Adyen\Testscripts\ValidatingSavedPaymentMethods_TC007.java
+C:\Varun\Workspace\AutomationTesting\src\test\java\org\Adyen\Testscripts\RefillUsingAuthorisedAliPayPaymentMethod_TC0017.java
+C:\Varun\Workspace\AutomationTesting\src\test\java\org\Adyen\Testscripts\ValidatingSavedMasterPaymentMethods_TC007.java
 C:\Varun\Workspace\AutomationTesting\src\test\java\Sonetel\AutomationTesting\AppTest.java
 C:\Varun\Workspace\AutomationTesting\src\test\java\org\Adyen\utilities\GenerateReport.java
 C:\Varun\Workspace\AutomationTesting\src\test\java\Sonetel\AutomationTesting\Browser.java
