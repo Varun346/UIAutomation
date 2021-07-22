@@ -63,7 +63,10 @@ public class PhoneNumberSectionPageWebElements {
 
 	@FindBy(xpath = "//button[contains(text(),'Confirm and pay now')]")
 	private WebElement ConfirmAndPayNowButton;
-
+	
+	@FindBy(xpath = "//button[contains(text(),'Go to numbers list')]")
+	private WebElement GoToNumbersList;
+	
 	public PhoneNumberSectionPageWebElements() {
 		PageFactory.initElements(BaseClass.driver, this);
 	}
@@ -155,5 +158,10 @@ public class PhoneNumberSectionPageWebElements {
 	public void ClickOnConformAndPayButton() {
 		ConformAndPayButton.click();
 		BaseClass.log.info(".....Clicked on Conform and Pay button.....");
+	}
+	
+	public void ClickOnGoToNumbersList() {
+		GoToNumbersList.click();
+		BaseClass.log.info(".....Clicked on Go To Numbers List.....");
 	}
 }

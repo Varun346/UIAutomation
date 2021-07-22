@@ -38,7 +38,7 @@ public class RefillUsingMasterCardWithSavingDetails_TC002 extends BaseClass {
 		pawe.EnterCvcCode();
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//input[@placeholder='xxx']/following::input[1]")).click();
-		driver.findElement(By.xpath("//input[@placeholder='xxx']/following::input[1]")).sendKeys("06/28");
+		driver.findElement(By.xpath("//input[@placeholder='xxx']/following::input[1]")).sendKeys("08/29");
 		Thread.sleep(2000);
 		pawe.ClickAddButton();
 		Thread.sleep(2000);

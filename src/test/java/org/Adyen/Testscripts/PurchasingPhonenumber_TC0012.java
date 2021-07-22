@@ -6,6 +6,7 @@ import org.Adyen.utilities.BaseClass;
 import org.Adyen.webpages.AccountSettingsWebElements;
 import org.Adyen.webpages.OnboardingPageWebElements;
 import org.Adyen.webpages.PhoneNumberSectionPageWebElements;
+import org.Adyen.webpages.PrepaidAccountPageWebElements;
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.By;
@@ -37,8 +38,13 @@ public class PurchasingPhonenumber_TC0012 extends BaseClass {
 		Thread.sleep(2000);
 		pnsp.ClickOnConformAndPayButton();
 		Thread.sleep(5000);
+		PrepaidAccountPageWebElements pawe = new PrepaidAccountPageWebElements();
+		pawe.Closepopup();
+		Thread.sleep(5000);
 		String conformation = driver.findElement(By.xpath("//div[@class='_2D7kLBR9gPH_c4D2hAZGCw']")).getText();
 		System.out.println(conformation);
+		Thread.sleep(2000);
+		pnsp.ClickOnGoToNumbersList();
 		Thread.sleep(2000);
 	}
 }
