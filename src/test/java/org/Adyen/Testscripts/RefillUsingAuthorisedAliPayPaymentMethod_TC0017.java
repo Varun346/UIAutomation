@@ -24,7 +24,7 @@ public class RefillUsingAuthorisedAliPayPaymentMethod_TC0017 extends BaseClass {
 		pawe.ClickAddPayementLink();
 		Thread.sleep(2000);
 		pawe.ClickRefill();
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		PaymentsMethodsSectionWebElements pmsw=new PaymentsMethodsSectionWebElements();
 		pmsw.ClickOnAlipayLink();
 		Thread.sleep(5000);

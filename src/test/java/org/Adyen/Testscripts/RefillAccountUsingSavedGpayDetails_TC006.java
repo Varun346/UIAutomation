@@ -19,9 +19,14 @@ public class RefillAccountUsingSavedGpayDetails_TC006 extends BaseClass {
 		pawe.ClickRefillLink();
 		driver.findElement(By.xpath("//span[@class='Select-value-label']/following::div[@class='Select-value']"))
 				.click();
-		driver.findElement(By.xpath("//*[contains(text(),'$50.00')]")).click();
+		driver.findElement(By.xpath("//*[contains(text(),'$10.00')]")).click();
 		// driver.findElement(By.xpath("//span[contains(text(),'Google
 		// Pay')]")).click();
+		Thread .sleep(2000);
+		pawe.ClickMasterCardLink();
+		Thread .sleep(2000);
+		pawe.clickonPaymentMethod();
+		Thread .sleep(2000);
 		pawe.clicksaveddetailsrefillButon();
 		Thread.sleep(2000);
 		System.out.println(driver.findElement(By.xpath("//div[@class='_3nn-c2zVDVs0WGOxisscC3']")).getText());

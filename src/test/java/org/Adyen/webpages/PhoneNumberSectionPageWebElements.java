@@ -22,10 +22,22 @@ public class PhoneNumberSectionPageWebElements {
 
 	@FindBy(xpath = "//input[@placeholder='Search for a place']")
 	private WebElement EnteredRosarioCity;
-
+	
+	@FindBy(xpath = "//input[@placeholder='Search for a place']")
+	private WebElement EnterCoventryCity;
+	
+	@FindBy(xpath = "//input[@placeholder='Search for a place']")
+	private WebElement EnterAdelaideCity;
+	
 	@FindBy(xpath = "//input[@placeholder='Search for a place']/following::div[contains(text(),'Rosario')]")
 	private WebElement ClickonRosario;
-
+	
+	@FindBy(xpath = "//input[@placeholder='Search for a place']/following::div[contains(text(),'Coventry')]")
+	private WebElement ClickonCoventry;
+	
+	@FindBy(xpath = "//input[@placeholder='Search for a place']/following::div[contains(text(),'Adelaide')]")
+	private WebElement ClickonAdelaide;
+	
 	@FindBy(xpath = "//input[@placeholder='Search for a place']/following::div[contains(text(),'New Jersey')]")
 	private WebElement ClickOnCountry;
 
@@ -77,12 +89,35 @@ public class PhoneNumberSectionPageWebElements {
 		EnteredRosarioCity.sendKeys(country);
 		BaseClass.log.info(".....Entered Rosario City Name.....");
 	}
-
+	
+	public void EnterCoventryCity() throws EncryptedDocumentException, InvalidFormatException, IOException {
+		String city = ExcelOperation.Readdata("Sheet1", 13, 0);
+		EnterCoventryCity.sendKeys(city);
+		BaseClass.log.info(".....Entered Leeds City Name.....");
+	}
+	
+	public void EnterAdelaideCity() throws EncryptedDocumentException, InvalidFormatException, IOException {
+		String city = ExcelOperation.Readdata("Sheet1", 14, 0);
+		EnterAdelaideCity.sendKeys(city);
+		BaseClass.log.info(".....Entered Adelaide City Name.....");
+	}
 	public void ClickOnCityName() {
 		ClickonRosario.click();
 		BaseClass.log.info(".....Clicked On City.....");
 	}
+	
+	public void ClickOnCoventryCity()
+	{
+		ClickonCoventry.click();
+		BaseClass.log.info(".....Clicked On Coventry City.....");
+	}
 
+	public void ClickOnAdelaideCity()
+	{
+		ClickonAdelaide.click();
+		BaseClass.log.info(".....Clicked On Adelaide City.....");
+	}
+	
 	public void ClickOnCountryName() {
 		ClickOnCountry.click();
 		BaseClass.log.info(".....Clicked On Country Name.....");

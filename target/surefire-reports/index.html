@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">15 methods,   15 passed</span>
+                    <span class="method-stats">20 methods, 1 failed,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingAliPayDelayedPayment_TC0022" class="method navigator-link" hash-for-method="testChecoutForSubscriptionOfPhoneNumberUsingAliPayDelayedPayment_TC0022">testChecoutForSubscriptionOfPhoneNumberUsingAliPayDelayedPayment_TC0022</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -109,12 +123,22 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumber_TC0013" class="method navigator-link" hash-for-method="testChecoutForSubscriptionOfPhoneNumber_TC0013">testChecoutForSubscriptionOfPhoneNumber_TC0013</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingAliPayAuthorisedPayment_TC0021" class="method navigator-link" hash-for-method="testChecoutForSubscriptionOfPhoneNumberUsingAliPayAuthorisedPayment_TC0021">testChecoutForSubscriptionOfPhoneNumberUsingAliPayAuthorisedPayment_TC0021</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="org.Adyen.Testscripts.DeleteSavedGpayMethodUnderPaymentMethodsSection_TC0011" class="method navigator-link" hash-for-method="testDeleteSavedGpayMethodUnerPaymentMethodsSection_TC0011">testDeleteSavedGpayMethodUnerPaymentMethodsSection_TC0011</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingGpay_TC0013" class="method navigator-link" hash-for-method="testChecoutForSubscriptionOfPhoneNumberUsingGpay_TC0013">testChecoutForSubscriptionOfPhoneNumberUsingGpay_TC0013</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingMasterCard_TC0019" class="method navigator-link" hash-for-method="testChecoutForSubscriptionOfPhoneNumberUsingMasterCard_TC0019">testChecoutForSubscriptionOfPhoneNumberUsingMasterCard_TC0019</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingPayPal_TC0020" class="method navigator-link" hash-for-method="testChecoutForSubscriptionOfPhoneNumberUsingPayPal">testChecoutForSubscriptionOfPhoneNumberUsingPayPal</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -154,6 +178,16 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.Adyen.Testscripts.RefillUsingAuthorisedAliPayPaymentMethod_TC0017" class="method navigator-link" hash-for-method="testRefillUsingAuthorisedAliPayPaymentMethod_TC0017">testRefillUsingAuthorisedAliPayPaymentMethod_TC0017</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.Adyen.Testscripts.RefillUsingAuthorisedDelayedPayments_TC0018" class="method navigator-link" hash-for-method="testRefillUsingAuthorisedDelayedPayments_TC0018">testRefillUsingAuthorisedDelayedPayments_TC0018</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="org.Adyen.Testscripts.RefillUsingMasterCardWithSavingDetails_TC002" class="method navigator-link" hash-for-method="testRefillUsingMasterCardWithSavingDetails_TC002">testRefillUsingMasterCardWithSavingDetails_TC002</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -189,17 +223,59 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">org.Adyen.Testscripts.DeleteSavedPayPalDetails_TC009</span>
+              <img src="failed.png"/>
+              <span class="class-name">org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingAliPayDelayedPayment_TC0022</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testDeletingSavedPayPalDetails_TC0011">
-                  </a> <!-- testDeletingSavedPayPalDetails_TC0011 -->
-                  <span class="method-name">testDeletingSavedPayPalDetails_TC0011</span>
+                  <a name="testChecoutForSubscriptionOfPhoneNumberUsingAliPayDelayedPayment_TC0022">
+                  </a> <!-- testChecoutForSubscriptionOfPhoneNumberUsingAliPayDelayedPayment_TC0022 -->
+                  <span class="method-name">testChecoutForSubscriptionOfPhoneNumberUsingAliPayDelayedPayment_TC0022</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[contains(text(),&apos;Proceed to checkout&apos;)]&quot;}
+  (Session info: chrome=91.0.4472.164)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;JNETLAP122&apos;, ip: &apos;192.168.1.53&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\jnet\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55181}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 623f54da8bf273a6362743149035d592
+*** Element info: {Using=xpath, value=//button[contains(text(),&apos;Proceed to checkout&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.click(Unknown Source)
+	at org.Adyen.webpages.PhoneNumberSectionPageWebElements.ClickOnProceedToCheckOutButton(PhoneNumberSectionPageWebElements.java:146)
+	at org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingAliPayDelayedPayment_TC0022.testChecoutForSubscriptionOfPhoneNumberUsingAliPayDelayedPayment_TC0022(ChecoutForSubscriptionOfPhoneNumberUsingAliPayDelayedPayment_TC0022.java:52)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingMasterCard_TC0019</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testChecoutForSubscriptionOfPhoneNumberUsingMasterCard_TC0019">
+                  </a> <!-- testChecoutForSubscriptionOfPhoneNumberUsingMasterCard_TC0019 -->
+                  <span class="method-name">testChecoutForSubscriptionOfPhoneNumberUsingMasterCard_TC0019</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -207,14 +283,44 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">org.Adyen.Testscripts.RefiilAccountUsingPayPalDetails_TC004</span>
+              <span class="class-name">org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingGpay_TC0013</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testRefiilAccountUsingPayPalDetails_TC004">
-                  </a> <!-- testRefiilAccountUsingPayPalDetails_TC004 -->
-                  <span class="method-name">testRefiilAccountUsingPayPalDetails_TC004</span>
+                  <a name="testChecoutForSubscriptionOfPhoneNumberUsingGpay_TC0013">
+                  </a> <!-- testChecoutForSubscriptionOfPhoneNumberUsingGpay_TC0013 -->
+                  <span class="method-name">testChecoutForSubscriptionOfPhoneNumberUsingGpay_TC0013</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.Adyen.Testscripts.RefillUsingAuthorisedAliPayPaymentMethod_TC0017</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRefillUsingAuthorisedAliPayPaymentMethod_TC0017">
+                  </a> <!-- testRefillUsingAuthorisedAliPayPaymentMethod_TC0017 -->
+                  <span class="method-name">testRefillUsingAuthorisedAliPayPaymentMethod_TC0017</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingPayPal_TC0020</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testChecoutForSubscriptionOfPhoneNumberUsingPayPal">
+                  </a> <!-- testChecoutForSubscriptionOfPhoneNumberUsingPayPal -->
+                  <span class="method-name">testChecoutForSubscriptionOfPhoneNumberUsingPayPal</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -237,66 +343,6 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">org.Adyen.Testscripts.ValidatingSavedPayPalMethod_TC0016</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testValidatingPaypalPaymentMethods">
-                  </a> <!-- testValidatingPaypalPaymentMethods -->
-                  <span class="method-name">testValidatingPaypalPaymentMethods</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">org.Adyen.Testscripts.DeleteSavedGpayMethodUnderPaymentMethodsSection_TC0011</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testDeleteSavedGpayMethodUnerPaymentMethodsSection_TC0011">
-                  </a> <!-- testDeleteSavedGpayMethodUnerPaymentMethodsSection_TC0011 -->
-                  <span class="method-name">testDeleteSavedGpayMethodUnerPaymentMethodsSection_TC0011</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">org.Adyen.Testscripts.DeleteSavedMasterCardDetails_TC008</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testDeleteSavedMasterCardDetails_TC008">
-                  </a> <!-- testDeleteSavedMasterCardDetails_TC008 -->
-                  <span class="method-name">testDeleteSavedMasterCardDetails_TC008</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">org.Adyen.Testscripts.ValidatingSavedGpayMethod_TC0015</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testValidatingSavedGPayMethod_TC0015">
-                  </a> <!-- testValidatingSavedGPayMethod_TC0015 -->
-                  <span class="method-name">testValidatingSavedGPayMethod_TC0015</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">org.Adyen.Testscripts.RefillAccountUsingSavedGpayDetails_TC006</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -305,21 +351,6 @@
                   <a name="testRefillAccountUsingSavedGpayDetails_TC006">
                   </a> <!-- testRefillAccountUsingSavedGpayDetails_TC006 -->
                   <span class="method-name">testRefillAccountUsingSavedGpayDetails_TC006</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">org.Adyen.Testscripts.RefillAccountUsingSavedMasterCardDetails_TC003</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testRefillAccountUsingSavedMasterCardDetails_TC003">
-                  </a> <!-- testRefillAccountUsingSavedMasterCardDetails_TC003 -->
-                  <span class="method-name">testRefillAccountUsingSavedMasterCardDetails_TC003</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -342,6 +373,66 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">org.Adyen.Testscripts.ValidatingSavedPayPalMethod_TC0016</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidatingPaypalPaymentMethods">
+                  </a> <!-- testValidatingPaypalPaymentMethods -->
+                  <span class="method-name">testValidatingPaypalPaymentMethods</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.Adyen.Testscripts.RefiilAccountUsingPayPalDetails_TC004</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRefiilAccountUsingPayPalDetails_TC004">
+                  </a> <!-- testRefiilAccountUsingPayPalDetails_TC004 -->
+                  <span class="method-name">testRefiilAccountUsingPayPalDetails_TC004</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.Adyen.Testscripts.RefillAccountUsingSavedMasterCardDetails_TC003</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRefillAccountUsingSavedMasterCardDetails_TC003">
+                  </a> <!-- testRefillAccountUsingSavedMasterCardDetails_TC003 -->
+                  <span class="method-name">testRefillAccountUsingSavedMasterCardDetails_TC003</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.Adyen.Testscripts.ValidatingSavedGpayMethod_TC0015</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidatingSavedGPayMethod_TC0015">
+                  </a> <!-- testValidatingSavedGPayMethod_TC0015 -->
+                  <span class="method-name">testValidatingSavedGPayMethod_TC0015</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">org.Adyen.Testscripts.RefillUsingMasterCardWithoutSavingDetails_TC001</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -350,6 +441,81 @@
                   <a name="testRefillUsingMasterCardWithoutSavingDetails_TC001">
                   </a> <!-- testRefillUsingMasterCardWithoutSavingDetails_TC001 -->
                   <span class="method-name">testRefillUsingMasterCardWithoutSavingDetails_TC001</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.Adyen.Testscripts.RefillAccountUsingSavedPayPalDetails_TC005</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRefillAccountUsingSavedPayPalDetails_TC005">
+                  </a> <!-- testRefillAccountUsingSavedPayPalDetails_TC005 -->
+                  <span class="method-name">testRefillAccountUsingSavedPayPalDetails_TC005</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.Adyen.Testscripts.DeleteSavedMasterCardDetails_TC008</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteSavedMasterCardDetails_TC008">
+                  </a> <!-- testDeleteSavedMasterCardDetails_TC008 -->
+                  <span class="method-name">testDeleteSavedMasterCardDetails_TC008</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.Adyen.Testscripts.RefillUsingAuthorisedDelayedPayments_TC0018</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRefillUsingAuthorisedDelayedPayments_TC0018">
+                  </a> <!-- testRefillUsingAuthorisedDelayedPayments_TC0018 -->
+                  <span class="method-name">testRefillUsingAuthorisedDelayedPayments_TC0018</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.Adyen.Testscripts.DeleteSavedPayPalDetails_TC009</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeletingSavedPayPalDetails_TC0011">
+                  </a> <!-- testDeletingSavedPayPalDetails_TC0011 -->
+                  <span class="method-name">testDeletingSavedPayPalDetails_TC0011</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingAliPayAuthorisedPayment_TC0021</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testChecoutForSubscriptionOfPhoneNumberUsingAliPayAuthorisedPayment_TC0021">
+                  </a> <!-- testChecoutForSubscriptionOfPhoneNumberUsingAliPayAuthorisedPayment_TC0021 -->
+                  <span class="method-name">testChecoutForSubscriptionOfPhoneNumberUsingAliPayAuthorisedPayment_TC0021</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -372,21 +538,6 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumber_TC0013</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testChecoutForSubscriptionOfPhoneNumber_TC0013">
-                  </a> <!-- testChecoutForSubscriptionOfPhoneNumber_TC0013 -->
-                  <span class="method-name">testChecoutForSubscriptionOfPhoneNumber_TC0013</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">org.Adyen.Testscripts.RefillUsingMasterCardWithSavingDetails_TC002</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -395,21 +546,6 @@
                   <a name="testRefillUsingMasterCardWithSavingDetails_TC002">
                   </a> <!-- testRefillUsingMasterCardWithSavingDetails_TC002 -->
                   <span class="method-name">testRefillUsingMasterCardWithSavingDetails_TC002</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">org.Adyen.Testscripts.RefillAccountUsingSavedPayPalDetails_TC005</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testRefillAccountUsingSavedPayPalDetails_TC005">
-                  </a> <!-- testRefillAccountUsingSavedPayPalDetails_TC005 -->
-                  <span class="method-name">testRefillAccountUsingSavedPayPalDetails_TC005</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -432,18 +568,23 @@
       &lt;class name=&quot;org.Adyen.Testscripts.RefillUsingMasterCardWithoutSavingDetails_TC001&quot;/&gt;
       &lt;class name=&quot;org.Adyen.Testscripts.RefillUsingMasterCardWithSavingDetails_TC002&quot;/&gt;
       &lt;class name=&quot;org.Adyen.Testscripts.RefillAccountUsingSavedMasterCardDetails_TC003&quot;/&gt;
+      &lt;class name=&quot;org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingMasterCard_TC0019&quot;/&gt;
+      &lt;class name=&quot;org.Adyen.Testscripts.ValidatingSavedMasterPaymentMethods_TC007&quot;/&gt;
       &lt;class name=&quot;org.Adyen.Testscripts.RefiilAccountUsingPayPalDetails_TC004&quot;/&gt;
       &lt;class name=&quot;org.Adyen.Testscripts.RefillAccountUsingSavedPayPalDetails_TC005&quot;/&gt;
-      &lt;class name=&quot;org.Adyen.Testscripts.RefillAccountUsingSavedGpayDetails_TC006&quot;/&gt;
-      &lt;class name=&quot;org.Adyen.Testscripts.ValidatingSavedMasterPaymentMethods_TC007&quot;/&gt;
+      &lt;class name=&quot;org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingPayPal_TC0020&quot;/&gt;
       &lt;class name=&quot;org.Adyen.Testscripts.ValidatingSavedPayPalMethod_TC0016&quot;/&gt;
+      &lt;class name=&quot;org.Adyen.Testscripts.RefillAccountUsingSavedGpayDetails_TC006&quot;/&gt;
+      &lt;class name=&quot;org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingGpay_TC0013&quot;/&gt;
       &lt;class name=&quot;org.Adyen.Testscripts.ValidatingSavedGpayMethod_TC0015&quot;/&gt;
+      &lt;class name=&quot;org.Adyen.Testscripts.PurchasingPhonenumber_TC0012&quot;/&gt;
+      &lt;class name=&quot;org.Adyen.Testscripts.RefillUsingAuthorisedAliPayPaymentMethod_TC0017&quot;/&gt;
+      &lt;class name=&quot;org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingAliPayAuthorisedPayment_TC0021&quot;/&gt;
+      &lt;class name=&quot;org.Adyen.Testscripts.RefillUsingAuthorisedDelayedPayments_TC0018&quot;/&gt;
+      &lt;class name=&quot;org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingAliPayDelayedPayment_TC0022&quot;/&gt;
+      &lt;class name=&quot;org.Adyen.Testscripts.CapturingPaymentReceipts_TC0010&quot;/&gt;
       &lt;class name=&quot;org.Adyen.Testscripts.DeleteSavedMasterCardDetails_TC008&quot;/&gt;
       &lt;class name=&quot;org.Adyen.Testscripts.DeleteSavedPayPalDetails_TC009&quot;/&gt;
-      &lt;class name=&quot;org.Adyen.Testscripts.CapturingPaymentReceipts_TC0010&quot;/&gt;
-      &lt;class name=&quot;org.Adyen.Testscripts.DeleteSavedGpayMethodUnderPaymentMethodsSection_TC0011&quot;/&gt;
-      &lt;class name=&quot;org.Adyen.Testscripts.PurchasingPhonenumber_TC0012&quot;/&gt;
-      &lt;class name=&quot;org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumber_TC0013&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -457,7 +598,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (15 classes)</span>
+                <span class="test-name">Test (20 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -483,72 +624,92 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(15);
+data.addRows(20);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testRefiilAccountUsingPayPalDetails_TC004')
-data.setCell(0, 2, 'org.Adyen.Testscripts.RefiilAccountUsingPayPalDetails_TC004')
-data.setCell(0, 3, 83377);
+data.setCell(0, 1, 'testRefillUsingAuthorisedDelayedPayments_TC0018')
+data.setCell(0, 2, 'org.Adyen.Testscripts.RefillUsingAuthorisedDelayedPayments_TC0018')
+data.setCell(0, 3, 143311);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testRefillUsingMasterCardWithoutSavingDetails_TC001')
-data.setCell(1, 2, 'org.Adyen.Testscripts.RefillUsingMasterCardWithoutSavingDetails_TC001')
-data.setCell(1, 3, 70818);
+data.setCell(1, 1, 'testChecoutForSubscriptionOfPhoneNumberUsingAliPayAuthorisedPayment_TC0021')
+data.setCell(1, 2, 'org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingAliPayAuthorisedPayment_TC0021')
+data.setCell(1, 3, 89914);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testChecoutForSubscriptionOfPhoneNumber_TC0013')
-data.setCell(2, 2, 'org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumber_TC0013')
-data.setCell(2, 3, 66252);
+data.setCell(2, 1, 'testChecoutForSubscriptionOfPhoneNumberUsingPayPal')
+data.setCell(2, 2, 'org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingPayPal_TC0020')
+data.setCell(2, 3, 88086);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testRefillUsingMasterCardWithSavingDetails_TC002')
-data.setCell(3, 2, 'org.Adyen.Testscripts.RefillUsingMasterCardWithSavingDetails_TC002')
-data.setCell(3, 3, 65695);
+data.setCell(3, 1, 'testChecoutForSubscriptionOfPhoneNumberUsingMasterCard_TC0019')
+data.setCell(3, 2, 'org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingMasterCard_TC0019')
+data.setCell(3, 3, 86906);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testPurchasingPhonenumber_TC0012')
-data.setCell(4, 2, 'org.Adyen.Testscripts.PurchasingPhonenumber_TC0012')
-data.setCell(4, 3, 53953);
+data.setCell(4, 1, 'testChecoutForSubscriptionOfPhoneNumberUsingAliPayDelayedPayment_TC0022')
+data.setCell(4, 2, 'org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingAliPayDelayedPayment_TC0022')
+data.setCell(4, 3, 85390);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testRefillAccountUsingSavedPayPalDetails_TC005')
-data.setCell(5, 2, 'org.Adyen.Testscripts.RefillAccountUsingSavedPayPalDetails_TC005')
-data.setCell(5, 3, 38560);
+data.setCell(5, 1, 'testChecoutForSubscriptionOfPhoneNumberUsingGpay_TC0013')
+data.setCell(5, 2, 'org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingGpay_TC0013')
+data.setCell(5, 3, 80787);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testRefillAccountUsingSavedGpayDetails_TC006')
-data.setCell(6, 2, 'org.Adyen.Testscripts.RefillAccountUsingSavedGpayDetails_TC006')
-data.setCell(6, 3, 29040);
+data.setCell(6, 1, 'testRefiilAccountUsingPayPalDetails_TC004')
+data.setCell(6, 2, 'org.Adyen.Testscripts.RefiilAccountUsingPayPalDetails_TC004')
+data.setCell(6, 3, 77616);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'testDeletingSavedPayPalDetails_TC0011')
-data.setCell(7, 2, 'org.Adyen.Testscripts.DeleteSavedPayPalDetails_TC009')
-data.setCell(7, 3, 28761);
+data.setCell(7, 1, 'testRefillUsingMasterCardWithoutSavingDetails_TC001')
+data.setCell(7, 2, 'org.Adyen.Testscripts.RefillUsingMasterCardWithoutSavingDetails_TC001')
+data.setCell(7, 3, 65867);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'testRefillAccountUsingSavedMasterCardDetails_TC003')
-data.setCell(8, 2, 'org.Adyen.Testscripts.RefillAccountUsingSavedMasterCardDetails_TC003')
-data.setCell(8, 3, 27349);
+data.setCell(8, 1, 'testRefillUsingAuthorisedAliPayPaymentMethod_TC0017')
+data.setCell(8, 2, 'org.Adyen.Testscripts.RefillUsingAuthorisedAliPayPaymentMethod_TC0017')
+data.setCell(8, 3, 61829);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'testDeleteSavedGpayMethodUnerPaymentMethodsSection_TC0011')
-data.setCell(9, 2, 'org.Adyen.Testscripts.DeleteSavedGpayMethodUnderPaymentMethodsSection_TC0011')
-data.setCell(9, 3, 27178);
+data.setCell(9, 1, 'testRefillUsingMasterCardWithSavingDetails_TC002')
+data.setCell(9, 2, 'org.Adyen.Testscripts.RefillUsingMasterCardWithSavingDetails_TC002')
+data.setCell(9, 3, 60886);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'testDeleteSavedMasterCardDetails_TC008')
-data.setCell(10, 2, 'org.Adyen.Testscripts.DeleteSavedMasterCardDetails_TC008')
-data.setCell(10, 3, 25145);
+data.setCell(10, 1, 'testPurchasingPhonenumber_TC0012')
+data.setCell(10, 2, 'org.Adyen.Testscripts.PurchasingPhonenumber_TC0012')
+data.setCell(10, 3, 55698);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'testCapturingPaymentReceipts_TC0010')
-data.setCell(11, 2, 'org.Adyen.Testscripts.CapturingPaymentReceipts_TC0010')
-data.setCell(11, 3, 19967);
+data.setCell(11, 1, 'testValidatingMasterCardPaymentMethods')
+data.setCell(11, 2, 'org.Adyen.Testscripts.ValidatingSavedMasterPaymentMethods_TC007')
+data.setCell(11, 3, 43191);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'testValidatingMasterCardPaymentMethods')
-data.setCell(12, 2, 'org.Adyen.Testscripts.ValidatingSavedMasterPaymentMethods_TC007')
-data.setCell(12, 3, 18314);
+data.setCell(12, 1, 'testRefillAccountUsingSavedGpayDetails_TC006')
+data.setCell(12, 2, 'org.Adyen.Testscripts.RefillAccountUsingSavedGpayDetails_TC006')
+data.setCell(12, 3, 33945);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'testValidatingSavedGPayMethod_TC0015')
-data.setCell(13, 2, 'org.Adyen.Testscripts.ValidatingSavedGpayMethod_TC0015')
-data.setCell(13, 3, 15737);
+data.setCell(13, 1, 'testRefillAccountUsingSavedPayPalDetails_TC005')
+data.setCell(13, 2, 'org.Adyen.Testscripts.RefillAccountUsingSavedPayPalDetails_TC005')
+data.setCell(13, 3, 31541);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'testValidatingPaypalPaymentMethods')
-data.setCell(14, 2, 'org.Adyen.Testscripts.ValidatingSavedPayPalMethod_TC0016')
-data.setCell(14, 3, 15084);
+data.setCell(14, 1, 'testRefillAccountUsingSavedMasterCardDetails_TC003')
+data.setCell(14, 2, 'org.Adyen.Testscripts.RefillAccountUsingSavedMasterCardDetails_TC003')
+data.setCell(14, 3, 27075);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testDeletingSavedPayPalDetails_TC0011')
+data.setCell(15, 2, 'org.Adyen.Testscripts.DeleteSavedPayPalDetails_TC009')
+data.setCell(15, 3, 26459);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testDeleteSavedMasterCardDetails_TC008')
+data.setCell(16, 2, 'org.Adyen.Testscripts.DeleteSavedMasterCardDetails_TC008')
+data.setCell(16, 3, 23803);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testCapturingPaymentReceipts_TC0010')
+data.setCell(17, 2, 'org.Adyen.Testscripts.CapturingPaymentReceipts_TC0010')
+data.setCell(17, 3, 21267);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testValidatingSavedGPayMethod_TC0015')
+data.setCell(18, 2, 'org.Adyen.Testscripts.ValidatingSavedGpayMethod_TC0015')
+data.setCell(18, 3, 14739);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testValidatingPaypalPaymentMethods')
+data.setCell(19, 2, 'org.Adyen.Testscripts.ValidatingSavedPayPalMethod_TC0016')
+data.setCell(19, 3, 13536);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 minutes</span>
+              <span class="suite-total-time">Total running time: 18 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -563,18 +724,32 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">14 ignored methods</span>
+            <span class="header-content">19 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">org.Adyen.Testscripts.DeleteSavedPayPalDetails_TC009</span>
+              <span class="ignored-class-name">org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingGpay_TC0013</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">OpenBrowser</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">org.Adyen.Testscripts.RefiilAccountUsingPayPalDetails_TC004</span>
+              <span class="ignored-class-name">org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingMasterCard_TC0019</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">OpenBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.Adyen.Testscripts.RefillUsingAuthorisedAliPayPaymentMethod_TC0017</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">OpenBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingPayPal_TC0020</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">OpenBrowser</span>
                 <br/>
@@ -588,34 +763,6 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">org.Adyen.Testscripts.ValidatingSavedPayPalMethod_TC0016</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">OpenBrowser</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">org.Adyen.Testscripts.DeleteSavedGpayMethodUnderPaymentMethodsSection_TC0011</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">OpenBrowser</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">org.Adyen.Testscripts.DeleteSavedMasterCardDetails_TC008</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">OpenBrowser</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">org.Adyen.Testscripts.ValidatingSavedGpayMethod_TC0015</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">OpenBrowser</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
               <span class="ignored-class-name">org.Adyen.Testscripts.RefillAccountUsingSavedGpayDetails_TC006</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">OpenBrowser</span>
@@ -623,7 +770,7 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">org.Adyen.Testscripts.RefillAccountUsingSavedMasterCardDetails_TC003</span>
+              <span class="ignored-class-name">org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingAliPayDelayedPayment_TC0022</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">OpenBrowser</span>
                 <br/>
@@ -637,14 +784,28 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">org.Adyen.Testscripts.ValidatingSavedMasterPaymentMethods_TC007</span>
+              <span class="ignored-class-name">org.Adyen.Testscripts.ValidatingSavedPayPalMethod_TC0016</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">OpenBrowser</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumber_TC0013</span>
+              <span class="ignored-class-name">org.Adyen.Testscripts.RefiilAccountUsingPayPalDetails_TC004</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">OpenBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.Adyen.Testscripts.RefillAccountUsingSavedMasterCardDetails_TC003</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">OpenBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.Adyen.Testscripts.ValidatingSavedGpayMethod_TC0015</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">OpenBrowser</span>
                 <br/>
@@ -658,7 +819,42 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
+              <span class="ignored-class-name">org.Adyen.Testscripts.DeleteSavedMasterCardDetails_TC008</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">OpenBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.Adyen.Testscripts.RefillUsingAuthorisedDelayedPayments_TC0018</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">OpenBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.Adyen.Testscripts.DeleteSavedPayPalDetails_TC009</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">OpenBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingAliPayAuthorisedPayment_TC0021</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">OpenBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
               <span class="ignored-class-name">org.Adyen.Testscripts.RefillUsingMasterCardWithSavingDetails_TC002</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">OpenBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.Adyen.Testscripts.ValidatingSavedMasterPaymentMethods_TC007</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">OpenBrowser</span>
                 <br/>
@@ -679,225 +875,302 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">Login</span>
-                <span class="method-start">329 ms</span>
+                <span class="method-start">375 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testRefillUsingMasterCardWithoutSavingDetails_TC001</span>
-                <span class="method-start">35302 ms</span>
+                <span class="method-start">36399 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">Logout</span>
-                <span class="method-start">106167 ms</span>
+                <span class="method-start">102359 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.Adyen.Testscripts.RefillUsingMasterCardWithSavingDetails_TC002</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">Login</span>
-                <span class="method-start">113084 ms</span>
+                <span class="method-start">107797 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testRefillUsingMasterCardWithSavingDetails_TC002</span>
-                <span class="method-start">131096 ms</span>
+                <span class="method-start">137019 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">Logout</span>
-                <span class="method-start">196792 ms</span>
+                <span class="method-start">197906 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.Adyen.Testscripts.RefillAccountUsingSavedMasterCardDetails_TC003</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">Login</span>
-                <span class="method-start">201789 ms</span>
+                <span class="method-start">204857 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testRefillAccountUsingSavedMasterCardDetails_TC003</span>
-                <span class="method-start">217536 ms</span>
+                <span class="method-start">233776 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">Logout</span>
-                <span class="method-start">244887 ms</span>
+                <span class="method-start">260852 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">org.Adyen.Testscripts.RefiilAccountUsingPayPalDetails_TC004</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingMasterCard_TC0019</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">Login</span>
-                <span class="method-start">249845 ms</span>
+                <span class="method-start">267657 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">testRefiilAccountUsingPayPalDetails_TC004</span>
-                <span class="method-start">264797 ms</span>
+                <span class="method-name">testChecoutForSubscriptionOfPhoneNumberUsingMasterCard_TC0019</span>
+                <span class="method-start">295929 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">Logout</span>
-                <span class="method-start">348175 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">org.Adyen.Testscripts.RefillAccountUsingSavedPayPalDetails_TC005</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">Login</span>
-                <span class="method-start">353340 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">testRefillAccountUsingSavedPayPalDetails_TC005</span>
-                <span class="method-start">374866 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">Logout</span>
-                <span class="method-start">413426 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">org.Adyen.Testscripts.RefillAccountUsingSavedGpayDetails_TC006</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">Login</span>
-                <span class="method-start">418652 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">testRefillAccountUsingSavedGpayDetails_TC006</span>
-                <span class="method-start">578922 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">Logout</span>
-                <span class="method-start">607963 ms</span>
+                <span class="method-start">382836 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.Adyen.Testscripts.ValidatingSavedMasterPaymentMethods_TC007</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">Login</span>
-                <span class="method-start">613169 ms</span>
+                <span class="method-start">387894 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testValidatingMasterCardPaymentMethods</span>
-                <span class="method-start">637291 ms</span>
+                <span class="method-start">416781 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">Logout</span>
-                <span class="method-start">655607 ms</span>
+                <span class="method-start">459972 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.Adyen.Testscripts.RefiilAccountUsingPayPalDetails_TC004</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Login</span>
+                <span class="method-start">467494 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testRefiilAccountUsingPayPalDetails_TC004</span>
+                <span class="method-start">497645 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Logout</span>
+                <span class="method-start">575264 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.Adyen.Testscripts.RefillAccountUsingSavedPayPalDetails_TC005</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Login</span>
+                <span class="method-start">580503 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testRefillAccountUsingSavedPayPalDetails_TC005</span>
+                <span class="method-start">610843 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Logout</span>
+                <span class="method-start">642385 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingPayPal_TC0020</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Login</span>
+                <span class="method-start">647605 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testChecoutForSubscriptionOfPhoneNumberUsingPayPal</span>
+                <span class="method-start">677951 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Logout</span>
+                <span class="method-start">766038 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.Adyen.Testscripts.ValidatingSavedPayPalMethod_TC0016</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">Login</span>
-                <span class="method-start">662677 ms</span>
+                <span class="method-start">771423 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testValidatingPaypalPaymentMethods</span>
-                <span class="method-start">690331 ms</span>
+                <span class="method-start">802325 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">Logout</span>
-                <span class="method-start">705416 ms</span>
+                <span class="method-start">815861 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.Adyen.Testscripts.RefillAccountUsingSavedGpayDetails_TC006</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Login</span>
+                <span class="method-start">820961 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testRefillAccountUsingSavedGpayDetails_TC006</span>
+                <span class="method-start">850534 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Logout</span>
+                <span class="method-start">884481 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingGpay_TC0013</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Login</span>
+                <span class="method-start">891359 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testChecoutForSubscriptionOfPhoneNumberUsingGpay_TC0013</span>
+                <span class="method-start">924353 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Logout</span>
+                <span class="method-start">1005141 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.Adyen.Testscripts.ValidatingSavedGpayMethod_TC0015</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">Login</span>
-                <span class="method-start">713196 ms</span>
+                <span class="method-start">1012026 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testValidatingSavedGPayMethod_TC0015</span>
-                <span class="method-start">733793 ms</span>
+                <span class="method-start">1040661 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">Logout</span>
-                <span class="method-start">749532 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">org.Adyen.Testscripts.DeleteSavedMasterCardDetails_TC008</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">Login</span>
-                <span class="method-start">756860 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">testDeleteSavedMasterCardDetails_TC008</span>
-                <span class="method-start">775059 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">Logout</span>
-                <span class="method-start">800205 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">org.Adyen.Testscripts.DeleteSavedPayPalDetails_TC009</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">Login</span>
-                <span class="method-start">806725 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">testDeletingSavedPayPalDetails_TC0011</span>
-                <span class="method-start">825256 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">Logout</span>
-                <span class="method-start">854018 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">org.Adyen.Testscripts.CapturingPaymentReceipts_TC0010</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">Login</span>
-                <span class="method-start">859152 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">testCapturingPaymentReceipts_TC0010</span>
-                <span class="method-start">874557 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">Logout</span>
-                <span class="method-start">894525 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">org.Adyen.Testscripts.DeleteSavedGpayMethodUnderPaymentMethodsSection_TC0011</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">Login</span>
-                <span class="method-start">899674 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">testDeleteSavedGpayMethodUnerPaymentMethodsSection_TC0011</span>
-                <span class="method-start">919423 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">Logout</span>
-                <span class="method-start">946601 ms</span>
+                <span class="method-start">1055401 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.Adyen.Testscripts.PurchasingPhonenumber_TC0012</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">Login</span>
-                <span class="method-start">951769 ms</span>
+                <span class="method-start">1060370 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testPurchasingPhonenumber_TC0012</span>
-                <span class="method-start">969021 ms</span>
+                <span class="method-start">1091560 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">Logout</span>
-                <span class="method-start">1022975 ms</span>
+                <span class="method-start">1147259 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumber_TC0013</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">org.Adyen.Testscripts.RefillUsingAuthorisedAliPayPaymentMethod_TC0017</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">Login</span>
-                <span class="method-start">1028199 ms</span>
+                <span class="method-start">1152571 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">testChecoutForSubscriptionOfPhoneNumber_TC0013</span>
-                <span class="method-start">1046912 ms</span>
+                <span class="method-name">testRefillUsingAuthorisedAliPayPaymentMethod_TC0017</span>
+                <span class="method-start">1184300 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">Logout</span>
-                <span class="method-start">1113165 ms</span>
+                <span class="method-start">1246130 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingAliPayAuthorisedPayment_TC0021</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Login</span>
+                <span class="method-start">1251381 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testChecoutForSubscriptionOfPhoneNumberUsingAliPayAuthorisedPayment_TC0021</span>
+                <span class="method-start">1280999 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Logout</span>
+                <span class="method-start">1370914 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.Adyen.Testscripts.RefillUsingAuthorisedDelayedPayments_TC0018</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Login</span>
+                <span class="method-start">1377748 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testRefillUsingAuthorisedDelayedPayments_TC0018</span>
+                <span class="method-start">1407730 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Logout</span>
+                <span class="method-start">1551043 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingAliPayDelayedPayment_TC0022</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Login</span>
+                <span class="method-start">1556444 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testChecoutForSubscriptionOfPhoneNumberUsingAliPayDelayedPayment_TC0022</span>
+                <span class="method-start">1586134 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Logout</span>
+                <span class="method-start">1672023 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.Adyen.Testscripts.CapturingPaymentReceipts_TC0010</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Login</span>
+                <span class="method-start">1678991 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCapturingPaymentReceipts_TC0010</span>
+                <span class="method-start">1708408 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Logout</span>
+                <span class="method-start">1729675 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.Adyen.Testscripts.DeleteSavedMasterCardDetails_TC008</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Login</span>
+                <span class="method-start">1736815 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteSavedMasterCardDetails_TC008</span>
+                <span class="method-start">1767544 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Logout</span>
+                <span class="method-start">1791348 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.Adyen.Testscripts.DeleteSavedPayPalDetails_TC009</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Login</span>
+                <span class="method-start">1796458 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testDeletingSavedPayPalDetails_TC0011</span>
+                <span class="method-start">1825173 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Logout</span>
+                <span class="method-start">1851634 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

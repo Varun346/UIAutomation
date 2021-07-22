@@ -24,7 +24,7 @@ public class RefillAccountUsingSavedPayPalDetails_TC005 extends BaseClass
 		driver.findElement(By.xpath("//*[contains(text(),'$10.00')]")).click();
 		Thread.sleep(2000);
 		pawe.ClickMasterCardLink();
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		pawe.ClickPayPalLink();
 		pawe.clicksaveddetailsrefillButon();
 		Thread.sleep(2000);

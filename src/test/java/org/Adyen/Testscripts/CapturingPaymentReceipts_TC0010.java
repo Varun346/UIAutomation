@@ -6,7 +6,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.Adyen.utilities.BaseClass;
 import org.Adyen.webpages.AccountSettingsWebElements;
@@ -22,6 +24,8 @@ public class CapturingPaymentReceipts_TC0010 extends BaseClass {
 		AccountSettingsWebElements ase = new AccountSettingsWebElements();
 		ase.ClickBillingLink();
 		ase.ClickReceiptsLink();
+		Actions a1 = new Actions(driver);
+		a1.sendKeys(Keys.PAGE_DOWN).perform();
 		String s = new SimpleDateFormat("YYYYMMDDHHmmss").format(new Date());
 		System.out.println(s);
 		Thread.sleep(5000);

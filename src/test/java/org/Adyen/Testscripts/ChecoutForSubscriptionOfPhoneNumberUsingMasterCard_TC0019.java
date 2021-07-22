@@ -54,5 +54,6 @@ public class ChecoutForSubscriptionOfPhoneNumberUsingMasterCard_TC0019 extends B
 		Thread.sleep(5000);
 		WebElement conformation = driver.findElement(By.xpath("//div[contains(@class,'_2D7kLBR9gPH_c4D2hAZGCw')]"));
 		System.out.println(conformation);
+		Thread.sleep(2000);
 	}
 }

@@ -6,14 +6,14 @@
   </listeners>
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
-      <class name="org.Adyen.Testscripts.PurchasingPhonenumber_TC0012">
+      <class name="org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingAliPayDelayedPayment_TC0022">
         <methods>
           <include name="Login"/>
           <include name="Logout"/>
-          <include name="testPurchasingPhonenumber_TC0012"/>
+          <include name="testChecoutForSubscriptionOfPhoneNumberUsingAliPayDelayedPayment_TC0022"/>
           <include name="OpenBrowser"/>
         </methods>
-      </class> <!-- org.Adyen.Testscripts.PurchasingPhonenumber_TC0012 -->
+      </class> <!-- org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingAliPayDelayedPayment_TC0022 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

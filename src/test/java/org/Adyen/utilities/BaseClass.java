@@ -54,11 +54,11 @@ public class BaseClass {
 		String emailid = ExcelOperation.Readdata("Sheet1", 1, 4);
 		String password = ExcelOperation.Readdata("Sheet1", 1, 5);
 		driver.findElement(By.xpath("//input[@type='email']")).sendKeys(emailid);
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		log.info(".....entered email id.........");
 		driver.findElement(By.xpath("//input[@type='password']")).sendKeys(password);
 		log.info(".....pwd entered.......");
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		driver.findElement(By.xpath("//button[contains(text(),'Sign in')]")).click();
 		log.info(".....Login button clicked.......");
 	}

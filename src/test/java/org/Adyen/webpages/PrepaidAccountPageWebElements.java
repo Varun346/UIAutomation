@@ -78,6 +78,7 @@ public class PrepaidAccountPageWebElements {
 
 	public void clickonPaymentMethod() {
 		PaymentMethod.click();
+		BaseClass.log.info(".....Selected Gpay Payment Method.....");
 	}
 
 	public void ClickAddPayementLink() {

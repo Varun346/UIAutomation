@@ -6,7 +6,6 @@
 	</listeners>
 	<test thread-count="5" name="Test">
 		<classes>
-
 			<class
 				name="org.Adyen.Testscripts.RefillUsingMasterCardWithoutSavingDetails_TC001" />
 			<class
@@ -14,27 +13,40 @@
 			<class
 				name="org.Adyen.Testscripts.RefillAccountUsingSavedMasterCardDetails_TC003" />
 			<class
-				name="org.Adyen.Testscripts.RefiilAccountUsingPayPalDetails_TC004" />
-			<class
-				name="org.Adyen.Testscripts.RefillAccountUsingSavedPayPalDetails_TC005" />
-			<class
-				name="org.Adyen.Testscripts.RefillAccountUsingSavedGpayDetails_TC006" />
+				name="org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingMasterCard_TC0019" />
 			<class
 				name="org.Adyen.Testscripts.ValidatingSavedMasterPaymentMethods_TC007" />
 			<class
+				name="org.Adyen.Testscripts.RefiilAccountUsingPayPalDetails_TC004" />	
+			<class
+				name="org.Adyen.Testscripts.RefillAccountUsingSavedPayPalDetails_TC005" />	
+			<class
+				name="org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingPayPal_TC0020" />	
+			<class
 				name="org.Adyen.Testscripts.ValidatingSavedPayPalMethod_TC0016" />
 			<class
-				name="org.Adyen.Testscripts.ValidatingSavedGpayMethod_TC0015" />
+				name="org.Adyen.Testscripts.RefillAccountUsingSavedGpayDetails_TC006" />	
 			<class
-				name="org.Adyen.Testscripts.DeleteSavedMasterCardDetails_TC008" />
+				name="org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingGpay_TC0013" />	
 			<class
-				name="org.Adyen.Testscripts.DeleteSavedPayPalDetails_TC009" />
+				name="org.Adyen.Testscripts.ValidatingSavedGpayMethod_TC0015" />	
 			<class
-				name="org.Adyen.Testscripts.CapturingPaymentReceipts_TC0010" />
+				name="org.Adyen.Testscripts.PurchasingPhonenumber_TC0012" />	
 			<class
-				name="org.Adyen.Testscripts.PurchasingPhonenumber_TC0012" />
+				name="org.Adyen.Testscripts.RefillUsingAuthorisedAliPayPaymentMethod_TC0017" />
 			<class
-				name="org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingGpay_TC0013" />
+				name="org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingAliPayAuthorisedPayment_TC0021" />	
+			<class
+				name="org.Adyen.Testscripts.RefillUsingAuthorisedDelayedPayments_TC0018" />		
+			<class
+				name="org.Adyen.Testscripts.ChecoutForSubscriptionOfPhoneNumberUsingAliPayDelayedPayment_TC0022" />	
+				
+			<class
+				name="org.Adyen.Testscripts.CapturingPaymentReceipts_TC0010" />	
+			<class
+				name="org.Adyen.Testscripts.DeleteSavedMasterCardDetails_TC008" />	
+			<class
+				name="org.Adyen.Testscripts.DeleteSavedPayPalDetails_TC009" />	
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
